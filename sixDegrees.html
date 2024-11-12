@@ -1,0 +1,47 @@
+<!-- sixDegrees.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6 Degrees of Separation</title>
+    <link rel="stylesheet" href="sixDegrees.css">
+  </head>
+  <body>
+    <h1>6 Degrees of Separation</h1>
+    <div class="game-container">
+      <div class="actor-container">
+        <h2>Actor 1: <span id="actor-1"></span></h2>
+      </div>
+      <div class="connection-grid">
+        <div class="row">
+          <div class="col" id="step-1-actor"></div>
+          <div class="col" id="step-1-movie"></div>
+        </div>
+        <div class="row">
+          <div class="col" id="step-2-actor"></div>
+          <div class="col" id="step-2-movie"></div>
+        </div>
+        <div class="row">
+          <div class="col" id="step-3-actor"></div>
+          <div class="col" id="step-3-movie"></div>
+        </div>
+        <div class="row">
+          <div class="col" id="step-4-actor"></div>
+          <div class="col" id="step-4-movie"></div>
+        </div>
+        <div class="row">
+          <div class="col" id="step-5-actor"></div>
+          <div class="col" id="step-5-movie"></div>
+        </div>
+      </div>
+      <div class="actor-container">
+        <h2>Actor 2: <span id="actor-2"></span></h2>
+      </div>
+      <button id="check-answer">Check Answer</button>
+      <button id="new-game">New Game</button>
+    </div>
+
+    <script src="sixDegrees.js"></script>
+  </body>
+</html>

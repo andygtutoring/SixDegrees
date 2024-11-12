@@ -1,0 +1,51 @@
+/* sixDegrees.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.game-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.actor-container {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.connection-grid {
+  margin: 20px 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.col {
+  flex: 1;
+  margin: 0 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+#check-answer, #new-game {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+#check-answer:hover, #new-game:hover {
+  background-color: #3e8e41;
+}
